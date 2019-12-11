@@ -1,0 +1,18 @@
+name: year-check
+version: "1.0"
+summary: Test the rust plugin
+description: |
+  This is a basic rust snap with a crate dependency.
+base: core18
+
+grade: devel
+confinement: strict
+
+apps:
+  year-check:
+    command: bin/year-check
+
+parts:
+  year-check:
+    plugin: rust
+    source: .
