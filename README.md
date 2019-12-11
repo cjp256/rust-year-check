@@ -1,2 +1,3 @@
 # rust-year-check
-example rust project for snapcraft
+
+lame example rust project for snapcraft
