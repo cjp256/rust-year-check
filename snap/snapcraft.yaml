@@ -1,4 +1,4 @@
-name: year-check
+name: cjp256-year-check
 version: "1.0"
 summary: Test the rust plugin
 description: |
